@@ -28,11 +28,11 @@ $password = mysqli_real_escape_string($connection,$_POST['pwd']);
 					
 					/********$hashedpwd = password_verify($password, $row['user_pwd']);
 					if($hashedpwd == false){
-echo "hashed pwd don't match";
+						echo "hashed pwd don't match";
 						//header("Location: header.php");
 						exit();
 						}elseif($hashedpwd == true){
-echo "hashed pwd match!";*/
+						echo "hashed pwd match!";*/
 						if(($password != $row['user_pwd'])){
 								header("Location: usrpwdempty.php");
 								exit();
@@ -42,7 +42,6 @@ echo "hashed pwd match!";*/
 							$_SESSION['lastname'] = $row['user_last'];;
 							$_SESSION['email'] = $row['user_email'];
 							$_SESSION['username'] = $row['user_uid'];
-
 							header("Location:../finlandnepal/NepalAssignment/NepalWebsiteTemp/NepalWebsiteTemp.html");
 						//}
 				}
@@ -50,22 +49,7 @@ echo "hashed pwd match!";*/
 	}
 }
 }else{
-		header("Location: header.php");	
+	header("Location: header.php");	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
