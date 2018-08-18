@@ -3,7 +3,7 @@
 require '/var/www/html/formlogin/phpmailer/libphp-phpmailer/class.smtp.php';
 require '/var/www/html/formlogin/phpmailer/libphp-phpmailer/class.phpmailer.php';
 require '/var/www/html/formlogin/phpmailer/libphp-phpmailer/PHPMailerAutoload.php';
-	if(isset($_POST['submit'])){
+if(isset($_POST['submit'])){
 include_once 'db.php';
 $fname = mysqli_real_escape_string($connection,$_POST['fname']);
 $lname = mysqli_real_escape_string($connection,$_POST['lname']);
@@ -69,22 +69,21 @@ $mail->SMTPSecure = 'tls';
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 $mail->Port = 587;
-$mail->Username = 'ghanashyam.neupane01@gmail.com';
-$mail->Password = 'aambote1';
+$mail->Username = 'yourActualEmail';
+$mail->Password = 'yourPWD';
+//if you wish to send an attachement to the new users
+$file_to_attach = 'path/to/your/file';
+$email->AddAttachment($file_to_attach,'actualFileName';
 $mail->send();
  
-
-							header('Location:emailsent.php');
-							exit();
-						}
+header('Location:emailsent.php');
+	exit();
+					}
 					
 			
-				}
+			}
 		}
 	}
-
-
-
 
 }else{
 	header("Location: signup.php");
