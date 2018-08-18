@@ -1,0 +1,563 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: antiquewhite;
+    
+   
+   
+}
+#outerLayer{
+    background-color: antiquewhite;
+    
+   
+}
+.totalIndent{
+    
+    margin:0 auto;
+    width:80%;
+    background-color: whitesmoke;
+    
+}
+
+
+header img{
+    width:80%;
+    height:200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position:fixed;
+    top: 0;
+    text-align:center;
+    margin:10px auto;
+    
+}
+
+
+nav{
+    margin-top: 205px;
+    width:100%;
+    
+   
+}
+nav ul{
+    margin-bottom: 1px;
+    text-align:center;
+    height:54px;
+    width: 80%
+   
+    line-height: 50px;
+    list-style-type: none;
+    border-radius: 10%;
+    
+   
+}
+nav a{
+    color:blueviolet;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 25%;
+    width:11%;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    
+    overflow: visible;
+}
+
+
+
+nav a:hover{
+   
+    background-color:#d8d3e4;
+    border-radius: 80%;
+    box-shadow: 3px 1px #888;
+    moz-box-shadow: 3px 1px #888;
+    -webkit-box-shadow: 3px 1px #888;
+  
+    width:13%;
+    font-size: 12px;
+    
+   
+}
+
+
+nav a:visited{
+    color:firebrick;
+}
+nav #home a{
+   
+    background-position: bottom;
+    background-color:indigo;
+    width:4.5%;
+   
+}
+nav #home a:hover{
+    transition: all 1s ease-out;
+    transition: transform 2.5s;
+    transform: rotate(360deg);
+}
+
+
+nav ul li{
+    list-style-type: none;
+    
+}
+
+
+aside figure video{
+    background-color: blueviolet;
+    float: left;
+    width: 90%;
+  
+  
+}
+
+#videoArchieve video{
+    width:100%;
+    height: 200px;
+   
+}
+
+
+aside{
+    margin:15px;
+    width:29%;
+    float: left;
+    padding-right:5px;
+    background-color:#d8d3e4;
+    border-radius: 10px;
+    
+    
+}
+
+aside figure{
+    height: 35px;
+    width:90;
+}
+
+aside article{
+    width:100%;
+    margin:15px;
+    padding:0 5px;
+    height: 300px;
+    overflow: scroll;
+    text-align: justify;
+}
+
+
+footer cite a{
+    color:blueviolet;
+}
+
+cite a:hover{
+    color: green;
+}
+
+cite a:visited{
+    color:brown;
+}
+
+
+#Biansha{
+   
+    height:300px;
+}
+
+
+
+/*.pokharaPic{
+    border:1px dashed black;
+    height:250px;
+   
+} come back here...*/
+
+
+.gallery ul li{
+  
+    list-style-type: none;
+    width:19%;
+    height: 125px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-radius: 5%;
+    float: left;
+    moz-border-radius: 5%;
+    webkit-border-radius: 5%;
+    
+}
+
+
+
+.gallery img{
+    width:100%;
+    height:80px;
+    
+}
+
+figcaption{
+    font-size: 0.7em;
+    color:dodgerblue;
+    width:60%;
+}
+
+a{
+    text-decoration: none;
+    font-family:cursive,sans-serif;
+    font-size: 0.9em;
+    padding:2px;
+ 
+}
+
+
+h3{
+    color:firebrick;
+    font-family: verdana, arial, sans-serif;
+    font-size: 20px;
+    text-align:center;
+}
+
+h4{
+    text-align:center;
+    margin-bottom: 0;
+    color:firebrick;
+}
+
+
+
+
+
+table {
+    border-collapse:separate;
+    color:azure;
+    background-color:#d8d3e4;
+    font-family:serif;
+    width:19%;
+    height: 300px;
+    font-size: .8em;
+    
+}
+
+table td a:hover{
+    font-size: .6em;
+}
+
+
+aside table{
+   margin-top: 10px;
+    width:19%;
+    height: auto;
+    float: left;
+    padding:5px;
+    background-color:olive;
+    border-radius: 10px;
+}
+tr:nth-child(even){
+    background-color: lightgreen;
+   
+}
+
+th{
+    font-size: .8em;
+    background-color: lightpink; 
+}
+
+td{
+ color:darkorchid;
+    
+}
+ 
+
+tr{
+    color:aquamarine;
+    background-color:darkgrey
+}
+
+#lowerHeader{
+    clear: both;
+    background-image: url("../Images/tanu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%;
+    height:200px;
+    border-radius:5px;
+    border-collapse: collapse;
+    margin-left: 20px;
+    opacity: .4;
+    margin-top:10px;
+}
+
+#realFooter{
+    background-color: hsla(0, 100%, 90%, 0.3);
+    border-radius:5px;
+}
+
+
+aside article ul li{
+    list-style-type:lower-roman;
+}
+
+@media screen and (max-width:1000px){
+    .totalIndent{
+        background-color:dimgray;
+    }
+    
+    #lowerHeader, #realFooter{
+        width:85%;
+        margin:10px 10px 10px 40px;
+    }
+    
+    nav #home a{
+        width:13%;
+    }
+    
+    nav a{
+        width:12%;
+        text-align:center;
+        font-size: 0.8em;
+        margin: 5px;
+    }
+    
+    aside{
+        margin:10px 10px 10px 40px;
+        width:80%;    
+     }
+    
+    table{
+        border-collapse:collapse;
+        width:auto;
+        font-size: 0.9em;
+            
+    }
+    
+    table tr{
+        background-color: bisque;
+        border:1px solid green;
+    }
+    
+    table td{
+        background-color: bisque;
+        border:1px solid green;
+    }
+            
+    nav a:hover{
+        width:13%;
+        font-size: .6em;
+        text-align:center;
+        padding-right: 10px;
+        margin-left: 1px;
+      
+    }
+    
+    .gallery img{
+        width:100px;
+        height:80px;
+    }
+    
+}
+/*Here ends the 1000px screen cascading*/
+
+
+
+
+@media screen and (max-width:470px){
+        body{
+            background-color: bisque;
+        }
+        .totalIndent{
+            background-color:bisque;
+        
+    }
+        #videoArchieve aside{
+            height:150px;
+            width:60%;
+        }
+    
+        #videoArchieve video{
+            height:130px;
+            width:130px;
+            margin-left: -10px;
+        }
+    
+        h4{
+            margin-top:70px;
+            background-color: bisque;
+            
+        }
+    
+        nav a{
+           
+            width:17%;
+            text-align:left;
+            font-size: 0.7em;
+            padding-right: 3px;
+            margin: 15 auto;
+        }
+        
+        aside{
+            margin-top: 10px;
+            width:85%;
+        }
+    
+        table{
+            border-collapse:collapse;
+            font-size: .6em;
+            
+        }
+        
+        table tr{
+            background-color: bisque;
+            border:1px solid green;
+            }
+    
+        table td{
+            background-color: bisque;
+            border:1px solid green;
+        }
+            
+        nav a:hover{
+            width:13%;
+            font-size: .6em;
+            padding-right: 10px;
+            margin-left: 1px;
+        }
+    
+        .gallery img{
+            width:50px;
+            height:40px;
+        }
+    
+        nav #home a{
+            width:45%;
+            text-align: center;
+   
+        }
+}
+/*Here ends the 470px screen cascading*/
+
+        
+@media screen and (max-width:320px){
+           
+            .totalIndent{
+                background-color:yellow;
+        
+        }
+            #videoArchieve video{
+                height:130px;
+                width:130px;
+                margin-left: -45px;
+        }
+            
+            nav a{
+           
+                width:20%;
+                text-align:left;
+                font-size: 0.5em;
+                margin-bottom: 10px;
+                margin-right:20px;
+                
+        }
+            aside{
+                margin-top: 10px;
+                width:150px;
+                margin-left: 10px;
+        }
+    
+            table{
+                border-collapse:collapse;
+                font-size: .6em;
+            
+        }
+            table tr{
+                background-color: bisque;
+                border:1px solid green;
+            }
+    
+            table td{
+                background-color: bisque;
+                border:1px solid green;
+            }
+            
+            nav a:hover{
+                width:23%;
+                font-size: .6em;
+                text-align:center;
+                padding-right: 10px;
+                margin-left: 5px;
+        }
+            .gallery img{
+                width:30px;
+                height:30px;
+                margin-right: 5px;    
+        }
+            
+            nav #home a{
+                width:15%;
+   
+        }
+            #lowerHeader{
+                margin-top: 0px;
+                width:130px;
+        }
+    
+            #realFooter{
+                margin-top: 0px;
+                width:130px;
+            }
+    
+           #emblems ul li img{
+                width:80px;
+                margin-left: -50px;
+            }
+}
+/*Here ends the 320px screen cascading*/
+
+
+/*for the purpose of 'Devkota' page*/
+aside ul{
+    list-style-type: none;
+    height: 1000px;
+}
+
+aside ul li img{
+    width:70%;
+    height:70px;
+    display: block;
+}
+
+#picTitle{
+    background-color:aqua;
+    width:50%;
+    margin-top: 50px;
+    display:inline-block;
+    font-weight:lighter;
+    text-align:center;
+}
+/*Cascading for image.html page*/
+#ImgGallery h2{
+    font-family: cursive;
+    color:lightgreen;
+    text-align:center;
+    margin-right: 0px;
+}
+
+/*cascading for DandiBioGame.html page*/
+
+#picArticle article img{
+    width:80%;
+    margin-left:15px;
+    padding:15px;
+    box-shadow: 10px 10px 1px 7px yellow;
+    border-radius:5%;
+}
+
+#picArticle{
+    width:60%;
+}
+
+#onlyArticle {
+   background-color:aqua;
+}
+
+/*Temporarily stopped here*/

@@ -1,0 +1,159 @@
+body{
+   background-color: #838c89;
+    margin:0;
+    padding:50px;
+   
+}
+
+#container{
+    width : 940px;
+    margin:0 auto;
+    text-align: left;
+    background-color: #838c89;
+    border:5px dotted #ba9494;
+    border-radius:3%;
+}
+
+
+
+    
+
+
+h1,h2,aside h3{
+    font-family: verdana, arial, sans-serif;
+    letter-spacing: 2px;
+    color: #420420;
+    font-size: 21px;
+    text-align: center;
+}
+ {
+    
+}
+.gallery h3{
+    font-family: verdana, arial, sans-serif;
+    letter-spacing: 5px;
+    color: #c00;
+    font-size: 21px;
+    text-align: center;
+}
+
+nav ul, nav li ul{
+    list-style-type: none;
+}
+
+nav  ul li ul{
+   
+    display:none;
+}
+nav ul li{
+   
+    float: left;
+ 
+    display:block;
+    width:15%;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    margin:2px;
+    
+}
+nav li ul{
+    background-color: darksalmon;
+    height:100px;
+    line-height: 50px;
+   
+}
+
+nav a{
+     text-decoration: none;
+     display:block;
+}
+nav ul li:hover ul{
+    display: block;
+    opacity:.7;
+    
+}
+
+nav #home a{
+  
+    background-position: bottom;
+    background-color:whitesmoke;
+    width:30%;
+    background-color: aqua;
+    
+   
+}
+nav #home a:hover{
+    transition: all 1s ease-out;
+    transition: transform 2.5s;
+    transform: rotate(360deg);
+    border-radius:40%;
+}
+
+
+
+#totalIndent{
+    margin-right: 50px;
+}
+
+
+
+#realFooter{
+    clear: both;
+    
+    height:100px;
+    background-color: beige;
+    
+}
+
+/*Linna casscading*/
+header img{
+    width:100%;
+    height:300px;
+    border-radius:5%;
+}
+aside{
+     margin:5px;
+    
+    width:30%;
+    float: left;
+    padding-right:5px;
+    background-color:#d8d3e4;
+    border-radius: 10px;
+}
+
+aside article{
+    width:100%;
+    margin:15px;
+    padding:0 5px;
+    height: 300px;
+    overflow:scroll;
+    text-align: justify;
+}
+/*casscading for Koli.html*/
+
+.gallery ul li{
+  
+    list-style-type: none;
+ 
+    width:19%;
+    height: 125px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border-radius: 5%;
+    float: left;
+    moz-border-radius: 5%;
+    webkit-border-radius: 5%;
+    
+}
+
+
+
+.gallery img{
+    width:100%;
+    height:88px;
+    
+}
+footer{
+    clear: both;
+}

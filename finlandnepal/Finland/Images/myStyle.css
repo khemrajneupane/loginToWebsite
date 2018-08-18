@@ -1,0 +1,16 @@
+figure{
+    width:150px;
+    border: 1px solid red;
+  
+}
+
+figcaption{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: Arial, Verdanam;
+}
+
+audio{
+    border:1px solid black;
+    
+}
