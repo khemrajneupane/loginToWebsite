@@ -1,9 +1,8 @@
 
 <?php
-
-	include_once 'signup.php';
-	
+include_once 'signup.php';
 ?>
+
 <!DOCTYPE html>
 <html>
 <head><title>Incorrect email!</title>
