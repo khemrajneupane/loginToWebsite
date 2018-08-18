@@ -1,12 +1,6 @@
 <?php
 include_once 'header.php';
-
-?>
-
-<?php
 session_start();
-
-
 ?>
 
 <!DOCTYPE html>
@@ -20,8 +14,7 @@ session_start();
     <nav>
         <div class = "main-rapper">
             <h2>We have just sent you an email with your login credientials.</h2>
-        
-    </div>
+        </div>
     </nav>
 </header>
 </body>
